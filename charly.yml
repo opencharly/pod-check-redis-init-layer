@@ -1,7 +1,5 @@
-version: 2026.232.0520
 check-redis-init-layer:
     candy:
-        version: 2026.144.1443
         description: |
             bench-redis-init — pre-populates redis with bench:hello = world
             Companion to the redis layer. Sets the key `bench:hello` to `world`
